@@ -1,0 +1,29 @@
+// {
+//   "extends": "../tsconfig.json",
+//   "compilerOptions": {
+//     "jsx": "react-jsx",
+//     "baseUrl": "src",
+//     "paths": {
+//       "@/*": ["*"]
+//     }
+//   },
+//   "include": ["src"]
+// }
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "strict": true,
+    "types": ["jest", "node"]
+  },
+
+  "include": ["src", "src/types", "jest.setup.ts"]
+
+}

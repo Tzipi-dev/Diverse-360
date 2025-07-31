@@ -1,0 +1,24 @@
+/* .forum-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, border 0.3s;
+  cursor: pointer;
+} */
+ .forum-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, border 0.3s;
+  cursor: pointer;
+  direction: rtl;
+  font-family: sans-serif;
+  position: relative;
+}
+.forum-card.unread {
+  font-weight: bold;
+}
